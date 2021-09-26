@@ -13,16 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
 
-        <item name="android:textViewStyle">@style/OpenSansRegularTextViewStyle</item>
-        <item name="buttonStyle">@style/OpenSansRegularButtonStyle</item>
-    </style>
-
-    <style name="OpenSansRegularTextViewStyle" parent="Widget.AppCompat.TextView">
-        <item name="fontFamily">OpenSans-Regular</item>
-    </style>
-
-    <style name="OpenSansRegularButtonStyle" parent="Widget.AppCompat.Button">
-        <item name="fontFamily">OpenSans-Regular</item>
+        <item name="fontFamily">@font/opensans_regular</item>
     </style>
 
     <style name="PinWidget.PinView" parent="Widget.AppCompat.EditText">
