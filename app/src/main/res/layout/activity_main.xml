@@ -283,25 +283,24 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginEnd="3dp"
-                android:background="@drawable/background_edittext"
-                >
-            <Spinner
-                android:id="@+id/spinnerVehicleMake"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp" />
+                android:layout_weight="1"
+                android:background="@drawable/background_edittext">
+
+                <Spinner
+                    android:id="@+id/spinnerVehicleMake"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp" />
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginStart="3dp"
-                android:background="@drawable/background_edittext"
-                >
+                android:layout_weight="1"
+                android:background="@drawable/background_edittext">
 
                 <Spinner
                     android:layout_width="match_parent"
@@ -316,36 +315,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@drawable/background_edittext"
-            >
-        <Spinner
-            android:id="@+id/spinnerManufactureYear"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingStart="5dp"
-            android:paddingEnd="5dp" />
+            android:background="@drawable/background_edittext">
+
+            <Spinner
+                android:id="@+id/spinnerManufactureYear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@drawable/background_edittext"
-            >
-        <Spinner
-            android:id="@+id/spinnerFuelType"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingStart="5dp"
-            android:paddingEnd="5dp" />
+            android:background="@drawable/background_edittext">
+
+            <Spinner
+                android:id="@+id/spinnerFuelType"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@drawable/background_edittext"
-            >
+            android:background="@drawable/background_edittext">
 
             <Spinner
                 android:id="@+id/spinnerVehicleCapacity"
